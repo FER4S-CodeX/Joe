@@ -265,6 +265,7 @@ document.getElementById('scanBtn').onclick=function(){
   setTimeout(()=>{st.textContent='Scan complete.';document.getElementById('result').classList.add('show');burst(80)},steps.length*850+300);
 };
 
+  
 /* ---------- candles ---------- */
 const TOTAL=24,box=document.getElementById('candles'),countEl=document.getElementById('count'),toast=document.getElementById('toast');
 const tricks=new Set();while(tricks.size<3)tricks.add(Math.floor(Math.random()*TOTAL));
